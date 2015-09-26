@@ -1,4 +1,4 @@
-/* 
+/*
 
 	Hi!  Welcome to style.css.  CSS stands for cascading style sheet - we recommend http://www.w3schools.com/css/ for the nitty gritty of CSS syntax.  But basically, what you should know is:
 
@@ -56,8 +56,8 @@ div.section {
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background:#000080;
-	color: white;
+	background:#00B080;
+	color: red;
 	font: 'Source Sans Pro',Arial, Sans-Serif;
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
 }
@@ -70,14 +70,14 @@ div.section {
 /* This alters the appearance of the div with id="signup". */
 #poem {
 	height: 110px;
-	background: white;
+	background: purple;
 	text-align: center;
 }
 
 /* This alters the appearance of the div with id="whoweare" */
 #whoweare {
 	background: white;
-	color: black; 
+	color: black;
 }
 
 /* This alters the appearance of the div with id="minileft", the div containing the images */
@@ -87,4 +87,3 @@ div.section {
 	margin-bottom:1.5em;
 	margin-right: 1em;
 }
-
