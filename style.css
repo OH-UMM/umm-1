@@ -1,4 +1,4 @@
-/* 
+/*
 
 	Hi!  Welcome to style.css.  CSS stands for cascading style sheet - we recommend http://www.w3schools.com/css/ for the nitty gritty of CSS syntax.  But basically, what you should know is:
 
@@ -40,7 +40,7 @@ h1 {		     /* This styles the header at the top of the page */
 }
 
 h2 {		     /* This styles the headers within the page */
-	font: bold 1.1em 'Source Sans Pro',Arial, Sans-Serif;
+	font: bold 1.1em 'Source Sans Pro',Arial, Serif;
 	padding: 0;
 	margin: 0;
 }
@@ -58,7 +58,7 @@ div.section {
 #plan, #more {
 	background:#000080;
 	color: white;
-	font: 'Source Sans Pro',Arial, Sans-Serif;
+	font: 'Source Sans Pro',Arial, Serif;
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
 }
 
@@ -76,8 +76,8 @@ div.section {
 
 /* This alters the appearance of the div with id="whoweare" */
 #whoweare {
-	background: white;
-	color: black; 
+	background: blue;
+	color: orange;
 }
 
 /* This alters the appearance of the div with id="minileft", the div containing the images */
@@ -87,4 +87,3 @@ div.section {
 	margin-bottom:1.5em;
 	margin-right: 1em;
 }
-
